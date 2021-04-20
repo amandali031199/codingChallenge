@@ -12,3 +12,4 @@
 **To run tests:**
 1. Please make sure axios, prompt, mocha, and chai are installed (otherwise run `npm install ...`).
 2. From the upstreet folder, type in the terminal `npm run test`.
+3. If this doesn't work, otherwise check package.json file and make sure there's a "test": "mocha --reporter spec" under "scripts". 
