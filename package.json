@@ -1,0 +1,20 @@
+{
+  "name": "upstreet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "kyc": "node -e 'require(\"./app/upstreet\").run()'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chai": "^4.3.4",
+    "express": "^4.17.1",
+    "mocha": "^8.3.2",
+    "prompt": "^1.1.0",
+    "request": "^2.88.2"
+  }
+}
